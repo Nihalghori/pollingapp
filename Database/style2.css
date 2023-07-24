@@ -1,0 +1,235 @@
+/* Unique Design with Transitions */
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #3a3535;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Poll section styles */
+  .poll {
+    border: 12px solid #978282;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    max-width: 400px;
+    margin-left:470px
+  }
+  
+  .poll h2 {
+    margin-bottom: 10px;
+  }
+  
+  .poll button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .poll button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  .poll p {
+    font-weight: bold;
+    margin-top: 15px;
+    color: #444;
+  }
+  
+  /* Result section styles */
+  .result {
+    border: 10px solid #000000;
+    padding: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    max-width: 400px;
+    margin-left:470px
+  }
+  
+  .result h2 {
+    margin-bottom: 10px;
+  }
+  
+  .result h3 {
+    font-weight: normal;
+    color: #555;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  #userVote {
+    border: 12px solid #703c3c;
+    padding: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 20px 20px 20px rgba(10, 10, 10, 0.1);
+    border-radius: 10px;
+    max-width: 400px;
+    margin-left:470px;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: bold
+  }
+
+  /* Unique Design with Transitions */
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #3a3535;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Poll section styles */
+.poll {
+    border: 12px solid #978282;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    max-width: 400px;
+    margin-left: 470px;
+}
+
+.poll h2 {
+    margin-bottom: 10px;
+}
+
+.poll button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.poll button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.poll p {
+    font-weight: bold;
+    margin-top: 15px;
+    color: #444;
+}
+
+/* Result section styles */
+.result {
+    border: 10px solid #000000;
+    padding: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    max-width: 400px;
+    margin-left: 470px;
+}
+
+.result h2 {
+    margin-bottom: 10px;
+}
+
+.result h3 {
+    font-weight: normal;
+    color: #555;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* UserVote section styles */
+#userVote {
+    border: 12px solid #703c3c;
+    padding: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 20px 20px 20px rgba(10, 10, 10, 0.1);
+    border-radius: 10px;
+    max-width: 400px;
+    margin-left: 470px;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 900px) {
+    .poll, .result, #userVote {
+        margin-left: 150px;
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 600px) {
+    .poll, .result, #userVote {
+        border: 6px solid #978282;
+        margin: 20px auto;
+        padding: 10px;
+    }
+}
+
+  
+
+  

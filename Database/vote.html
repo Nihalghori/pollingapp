@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+        <!-- ... (header and other content remains the same) ... -->
+
+        <div class="poll">
+            <h2>Vote for Your Favorite Subject</h2>
+            <button id="web dev" onclick="vote('web dev')">WEB DEV</button>
+            <button id="GRAPHICS" onclick="vote('GRAPHICS')">GRAPHICS</button>
+             <!-- Display user's own vote here -->
+        </div>
+    
+        <div class="result">
+            <h2>Current Votes:</h2>
+            <div id="voteA">
+                <h3>WEB DEV: 0</h3>
+            </div>
+            <div id="voteB">
+                <h3>GRAPHICS: 0</h3>
+            </div>
+           
+        </div>
+        <p id="userVote"></p> <!-- Display user's own vote here -->
+    
+    
+        <!-- Include Firebase SDK and Firebase Authentication SDK -->
+        <script src="https://www.gstatic.com/firebasejs/9.12.1/firebase-app-compat.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/9.12.1/firebase-database-compat.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/9.12.1/firebase-auth-compat.js"></script> <!-- Add this line for Firebase Authentication -->
+    
+        <!-- Initialize Firebase and load vote.js -->
+        <script src="vote.js"></script>
+</body>
+</html>
+
+
