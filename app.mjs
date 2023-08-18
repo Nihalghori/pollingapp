@@ -24,7 +24,7 @@ const singUp = () => {
     firebase.auth().createUserWithEmailAndPassword(email, password)
         .then((result) => {
             // Signed in 
-            window.location.href = "../Database/vote.html";
+            window.location.href = "index3.html";
             // ...
         })
         .catch((error) => {
